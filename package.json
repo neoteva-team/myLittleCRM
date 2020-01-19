@@ -1,0 +1,27 @@
+{
+  "name": "mylittlecrm",
+  "version": "0.1.0",
+  "description": "simple CRM for my little company",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config ./webpackConfig/client.dev.webpack.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neoteva-team/myLittleCRM.git"
+  },
+  "keywords": [
+    "CRM"
+  ],
+  "author": "neoteva",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/neoteva-team/myLittleCRM/issues"
+  },
+  "homepage": "https://github.com/neoteva-team/myLittleCRM#readme",
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
